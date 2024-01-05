@@ -169,7 +169,7 @@ public class Player : MonoBehaviour
 
     void OnCollisionEnter2D(Collision2D coll)
     {
-        if (coll.gameObject.layer == 6)
+        if (coll.gameObject.layer == 9)
         {
             isJumping = false;
         }
